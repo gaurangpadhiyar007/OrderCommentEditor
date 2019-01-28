@@ -1,2 +1,2 @@
 # OrderCommentEditor
-Order Comment Editor
+Magento 2 Order Comment Editor
