@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @category Extrembler
+* @package  Extrembler_OrderCommentEditor
+* @author   gaurangpadhiyar1993@gmail.com
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Magento\Sales\Block\Adminhtml\Order\View\History" type="Extrembler\OrderCommentEditor\Block\Adminhtml\Sales\Order\View\History" />
+</config>

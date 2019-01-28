@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @category Extrembler
+* @package  Extrembler_OrderCommentEditor
+* @author   gaurangpadhiyar1993@gmail.com
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Extrembler_OrderCommentEditor" setup_version="0.1.0">
+    	<sequence>
+            <module name="Magento_Sales"/>
+        </sequence>
+    </module>
+</config>
