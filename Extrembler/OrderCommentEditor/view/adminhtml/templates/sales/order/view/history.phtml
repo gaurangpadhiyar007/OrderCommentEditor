@@ -120,6 +120,13 @@
                 'wysiwygEditor',
                 editor
             );
+        // After ajax reload page due to re-assigment not to history editor
+        jQuery(window.tinymce.editors).each(function(idx, p){
+            if(p.editorId === 'history_comment'){
+                window.tinymce.remove(idx);
+                location.reload();
+            }
+        });
     });
 </script>
 </div>
